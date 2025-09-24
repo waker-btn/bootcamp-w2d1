@@ -14,7 +14,7 @@ main {
   flex: auto;
   display: flex;
   gap: 20px;
-  margin: 50px 160px;
+
 }
 
 .main-left {
@@ -62,30 +62,26 @@ img {
 /* nav */
 
 nav {
-  margin: 2em 0 4em;
-  padding: 2em 2em 0;
+
 }
 
 .main-nav {
   list-style: none;
   display: flex;
-  justify-content: center;
-  font-size: 2rem;
-  margin: 0 auto;
-}
-
-.left-link {
-  border-left: 1px solid black !important;
+  padding: 0;
 }
 
 .main-nav-link {
   text-decoration: none;
+}
+
+.main-nav-item {
+  flex: 1;
   border: 1px solid black;
-  border-left: none;
-  border-bottom: none;
-  padding: 0.5em 4em;
   background-color: #eae6e3;
+  padding: 20px;
   color: #000;
+  text-align: center;
 }
 
 .main-nav-link:hover,
