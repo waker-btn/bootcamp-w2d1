@@ -13,6 +13,7 @@ main {
   flex: auto;
   display: flex;
   gap: 20px;
+  margin: 50px 160px;
 }
 
 .main-left {
@@ -60,7 +61,7 @@ img {
 /* nav */
 
 nav {
-  margin: 2em 3em;
+  margin: 2em 0 4em;
   padding: 2em 2em 0;
 }
 
