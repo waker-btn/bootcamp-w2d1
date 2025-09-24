@@ -1,5 +1,74 @@
-body{
-      font-family: "Josefin Sans", sans-serif;
+body {
+  background-color: #f5f5f5;
+  padding: 10px 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/*main*/
+
+main {
+  display: flex;
+  gap: 20px;
+}
+
+.main-left {
+  flex: 1;
+}
+
+.main-right {
+  flex: 2;
+}
+
+.main-title {
+  border-bottom: solid;
+  padding-bottom: 10px;
+}
+
+.main-button {
+  padding: 10px;
+  background-color: #c3c7c4;
+}
+
+/* text */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* table */
+table,
+td,
+th {
+    border-color: #c3c7c4;
+    padding: 10px;
+    text-align: left;
+}
+
+table,
+td {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+th {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+table {
+  margin: 20px 0px;
+  width: 100%;
+}
+
+/*footer*/
+
+footer{
+    border-top: 1px solid;
+    margin-top: 20px;
+
 }
 
 /* header */
