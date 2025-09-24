@@ -3,11 +3,14 @@ body {
   background-color: #f5f5f5;
   padding: 10px 30px;
   font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 /*main*/
 
 main {
+  flex: auto;
   display: flex;
   gap: 20px;
 }
@@ -32,60 +35,61 @@ main {
 
 /* header */
 header {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  flex: none;
 }
 
 .logo {
-    max-width: 350px;
-    margin: 2em 2em 0;
+  max-width: 350px;
+  margin: 2em 2em 0;
 }
 
-.header-img{
-    display: flex;
-    margin: 0 auto;
-    width: 1200px;
-    height: 500px
+.header-img {
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  height: 500px;
 }
 
-img{
-      width: 100%;
-      height: 100%;
+img {
+  width: 100%;
+  height: 100%;
 }
 
 /* nav */
 
 nav {
-    margin: 2em 3em;
-    padding: 2em 2em 0;
+  margin: 2em 3em;
+  padding: 2em 2em 0;
 }
 
 .main-nav {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto;
 }
 
 .left-link {
-    border-left: 1px solid black !important;
+  border-left: 1px solid black !important;
 }
 
 .main-nav-link {
-    text-decoration: none;
-    border: 1px solid black;
-    border-left: none;
-    border-bottom: none;
-    padding: 0.5em 4em;
-    background-color: #EAE6E3;
-    color: #000;
+  text-decoration: none;
+  border: 1px solid black;
+  border-left: none;
+  border-bottom: none;
+  padding: 0.5em 4em;
+  background-color: #eae6e3;
+  color: #000;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active,
 .main-nav-link:focus {
-    background-color: #F8F7F5 ;
+  background-color: #f8f7f5;
 }
 
 /* text */
@@ -99,9 +103,9 @@ a {
 table,
 td,
 th {
-    border-color: #c3c7c4;
-    padding: 10px;
-    text-align: left;
+  border-color: #c3c7c4;
+  padding: 10px;
+  text-align: left;
 }
 
 table,
@@ -124,18 +128,21 @@ table {
 
 /*footer*/
 
-footer{
-    border-top: 1px solid;
-    margin-top: 20px;
+footer {
+  border-top: 1px solid;
+  margin-top: 20px;
+  flex: none;
 }
 
 /*form*/
-button, input[type="submit"], input[type="reset"] {
-	background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
