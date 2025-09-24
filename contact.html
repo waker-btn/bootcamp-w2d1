@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact - My Company London</title>
     <link rel="stylesheet" href="./styles/index.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
-<body>
-
-   <header>
+  <body>
+    
+     <header>
         <img class="logo" src="./assets/Logo.png" alt="My Company London logo"/>
         <nav>
            <ul class="main-nav">
@@ -21,42 +21,60 @@
            </ul> 
         </nav>
         <img class="header-img" src="./assets/hero-img.jpg" alt="A photo of Tower Bridge in London" />
-    </header>
+    </header> 
 
     <main>
-        <section>
-            <h1>Contact us</h1>
-            <hr>
-            <p>If you would like to get in touch with us please use the form below</p>
+      <section class="main-left">
+        <h2 class="main-title">Contact us</h2>
+        <p>
+          If you would like to get in touch with us please use the form below
+        </p>
 
-            <form class="contact-form">
-                <label for="name">Name</label>
-                <input type="text" placeholder="Your name" name="name"
-                id="name" required/>
-                <label for="email">Email</label>
-                <input type="text" placeholder="Your email" name="email"
-                id="email" required/>
-                <label for="message">Message</label>
-                <input type="text" placeholder="Your message" name="message"
-                id="message" required/>
-                <button type="submit">Send</button>
-            </form>
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            placeholder="Your name"
+            name="name"
+            id="name"
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            type="text"
+            placeholder="Your email"
+            name="email"
+            id="email"
+            required
+          />
+          <label for="message">Message</label>
+          <input
+            type="text"
+            placeholder="Your message"
+            name="message"
+            id="message"
+            required
+          />
+          <button class="main-button" type="submit">Send</button>
+        </form>
+      </section>
 
-        </section>
-
-        <section>
-            <h2>Map</h2>
-            <hr>
-            <p>Occaecat sit ea dolor reprehenderit occaecat in laborum commodo. Id et irure deserunt labore pariatur occaecat ex magna. Magna anim incididunt aliquip nostrud commodo laborum reprehenderit est. </p>
-            <img src="./assets/map.png" alt="A screenshot of My Company London on a map" />
-        </section>
-
+      <section class="main-right">
+        <h2 class="main-title">Map</h2>
+        <p>
+          Occaecat sit ea dolor reprehenderit occaecat in laborum commodo. Id et
+          irure deserunt labore pariatur occaecat ex magna. Magna anim
+          incididunt aliquip nostrud commodo laborum reprehenderit est.
+        </p>
+        <img
+          src="./assets/map.png"
+          alt="A screenshot of My Company London on a map"
+        />
+      </section>
     </main>
-    
-    <footer>
-        <hr>
-        <p>© 2023 My Company London, All rights reserved</p>
-    </footer>
 
-</body>
+    <footer>
+      <p>© 2023 My Company London, All rights reserved</p>
+    </footer>
+  </body>
 </html>
