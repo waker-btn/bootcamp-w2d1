@@ -44,7 +44,6 @@ header {
 
 .logo {
   max-width: 350px;
-  margin: 2em 2em 0;
 }
 
 .header-img {
@@ -145,6 +144,27 @@ input[type="reset"] {
   cursor: pointer;
   outline: inherit;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  padding: 50px;
+}
+
+input::-webkit-input-placeholder { 
+  position:absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 20px; 
+}
+
+
+
+
 
 /* map */
 .google-map  {
