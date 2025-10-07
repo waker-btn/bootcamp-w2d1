@@ -11,4 +11,4 @@ The goal was to get better at building layouts from a visual reference and to pr
 I got more comfortable with layout techniques (mainly flexbox), spacing, and following a design closely.
 
 Design given:
-
+![Design given for exercise](assets/route_1_home.png "Design Given")
